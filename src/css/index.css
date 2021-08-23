@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+
+.welcome-page, .result-page{
+    background-color: whitesmoke;
+    padding: 30px 10px;
+}
+
+.exam-cover, .exam-result{
+    justify-content: center;
+    border: 1px solid black;
+    padding: 30px 0px;
+}
+
+.cover-title, .result-title{
+    margin: 10px 0px 30px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Jeju Gothic', 'PT Sans';
+}
+
+.info{
+    margin: 25px 20px;
+    text-align: left;
+    font-family: 'PT Sans';
+}
+
+li{
+    margin: 10px 0px;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.apply-button{
+    font-family: 'Jeju Gothic', 'PT Sans';
+    font-size: 14px;
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    padding: 10px 10px;
+    background-color: white;
+    border: 3px solid rgb(226, 226, 226);
+    border-radius: 7px;
+}
+
+
+.question-set{
+    padding-top: 52px;
+    height: 100%;
+}
+
+.question{
+    padding: 10px;
+}
+
+.question-text{
+    font-family: 'Jeju Gothic', 'PT Sans';
+    margin: 10px 0px;
+}
+
+.choice{
+    font-family: 'Jeju Gothic', 'PT Sans';
+    font-size: 14px;
+    display: block;
+    margin: 5px 3px;
+    padding: 10px 10px;
+    width: 100%;
+    background-color: white;
+    border: 3px solid rgb(226, 226, 226);
+    border-radius: 7px;
+
+    transition-property: all;
+	transition-duration: 0.2s;
+}
+
+.selected{
+    background-color: rgb(226, 226, 226);
+    transition-timing-function: ease;
+}
+
+.page-title, .bottom-nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    color: #fff;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 20px;
+    font-family: 'Jeju Myeongjo', 'PT Sans';
+    font-weight: bold;
+    font-style: italic;
+    top: 0px;
+    margin: 0px;
+    background: linear-gradient(to bottom, rgb(226, 190, 255), rgb(255, 221, 108));
+}
+
+.bottom-nav {
+    font-family: 'Jeju Gothic', 'PT Sans';
+    font-style: italic;
+    bottom: -52px;
+    background: linear-gradient(to bottom, rgb(255, 233, 160), rgb(105, 218, 212));
+    transition:bottom .2s;
+}
+
+.bottom-nav.show {
+    font-family: 'Jeju Gothic', 'PT Sans';
+    font-style: italic;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgb(255, 233, 160), rgb(105, 218, 212));
+}
+
+.bottom-nav-button{
+    font-family: 'Jeju Gothic', 'PT Sans';
+    font-size: 17px;
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    color: white;
+    background: transparent;
+    border: none;
+    transition-property: all;
+	transition-duration: 0.2s;
+}
+
+.result{
+    margin: 30px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Jeju Gothic', 'PT Sans';
+}
+
+.score{
+    margin: 40px 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Jeju Gothic', 'PT Sans';
+}
